@@ -1,0 +1,29 @@
+$bg-dark:#000000;
+$text-white:#fff;
+.container{
+   width: 1000px;
+   height: 100vh;
+   margin: 0px auto;
+   position: relative;
+    // background-color: $bg-dark;
+}
+.calculator{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+  }
+
+    .calculator td button{
+        font-size: 26px;
+        font-weight: 500;
+        background-color: $bg-dark;
+        color: $text-white;
+        cursor: pointer;
+        width: 100%;
+        padding: 20px 70px;
+  }
